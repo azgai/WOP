@@ -1,5 +1,5 @@
 .background-container {
-  position: fixed;
+  position: relative;
   inset: 0;
   overflow: hidden;
   z-index: -1;
