@@ -1,4 +1,4 @@
-import DynamicBackground from "../components/Home/DynamicBackground";
+import DynamicBackground from "../components/home/DynamicBackground";
 import "./Home.css";
 
 function Home() {
