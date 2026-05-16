@@ -1,7 +1,7 @@
 import { useState } from "react";
 import gamesData from "../data/gamesData";
 import GameCard from "../components/games/GameCard";
-import "./Home.css"; // Reuse styles from Home for consistency
+import "../pages/Home.css"; // Reuse styles from Home for consistency
 function Games() {
     const [search, setSearch] = useState("");
 
