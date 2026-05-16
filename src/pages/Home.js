@@ -1,8 +1,18 @@
+import DynamicBackground from "../components/Home/DynamicBackground";
+import "./Home.css";
+
 function Home() {
     return (
         <div className="page">
-            <h1>Welcome to GameSite</h1>
-            <p>Play games and compete with friends.</p>
+            <DynamicBackground />
+
+            <div className="home-content">
+                <h1>Welcome to the World of Pixels</h1>
+
+                <br />
+
+                <p>Play games and compete in the game world.</p>
+            </div>
         </div>
     );
 }
